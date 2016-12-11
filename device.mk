@@ -52,3 +52,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	 wcdma.sim.slot.cfg=true \
 	 sys.usb.gser.count=4
 	 
+ADDITIONAL_DEFAULT_PROPERTIES += \
+	 ro.mount.fs=UBIFS \
+	 ro.persist.partition.support=no
